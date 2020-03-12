@@ -1,0 +1,48 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".editorconfig": true,
+    ".eslintrc.js": true,
+    ".prettierrc": true,
+    "tsconfig.json": true,
+    // ".sequelizerc": true,
+    "gulpfile.js": true,
+    "yarn.lock": true
+  },
+  "breadcrumbs.enabled": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
+  "editor.parameterHints.enabled": false,
+  "editor.formatOnSave": false,
+  "eslint.packageManager": "yarn",
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.suggest.autoImports": false,
+}

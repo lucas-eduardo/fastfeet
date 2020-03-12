@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "rootDir": "src",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "compileOnSave": false,
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
