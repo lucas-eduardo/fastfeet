@@ -5,7 +5,7 @@
     ".eslintrc.js": true,
     ".prettierrc": true,
     "tsconfig.json": true,
-    // ".sequelizerc": true,
+    ".sequelizerc": true,
     "gulpfile.js": true,
     "yarn.lock": true
   },

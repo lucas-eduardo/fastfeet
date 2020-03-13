@@ -65,6 +65,8 @@ Basta então passar as configurações de acessos e chave secreta do JWT.
 
 E em outro terminal, execute <code>yarn queue</code> para rodar o redis.
 
+Será criado um usuário default para a aplicação, odne o e-mail para login é: **admin@fastfeet.com** e a senha: **123456**.
+
 Com esses comandos, a API estará rodando na porta **3333**, então basta acessar http://localhost:3333.
 
 ### Gerando o build da aplicação
